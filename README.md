@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The Bank Management System (BMS) is a Python-based command-line interface application designed for efficient banking operations. Admins can approve and manage user accounts and view transaction histories, while users can access their accounts, perform transactions, and view their details.
+The Bank Management System (BMS) is a Python-based command-line interface application designed for efficient banking operations. Admins can approve and manage user accounts and view transaction histories, while users can access their accounts, perform transactions, and view their details, and many more.
 
 ## Features
 
