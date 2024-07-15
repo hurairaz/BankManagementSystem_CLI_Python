@@ -133,6 +133,7 @@ class User:
     def show_transaction_history(self):
         transaction_history = self.user_data["transaction_history"]
         if transaction_history:
+            print("Transaction History: ")
             for transaction_record in transaction_history:
                 print("*" * 30)
                 print(f"Date: {transaction_record['date']}")
@@ -151,6 +152,5 @@ class User:
         print(f"Account Number: {self.user_data["account_number"]}")
         print("*" * 30)
         print("")
-        print("Transaction History: ")
         self.show_transaction_history()
 
